@@ -3,6 +3,11 @@
 # postmark ?
 # ssdmodel/valid/ssd-rr250k -> Cleaning policy
 # Which is useful output?
+# block# -> element# -> ssd_timing.c ssd_choose_element
+# block# -> apn -> lpn -> lba[lpn] = ppn -> ssd.c ssd_logical_pageno
+# trace(block#) -> trace(LBA) ?
+
+
 
 # Financial1
 greedy
