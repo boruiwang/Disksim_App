@@ -1,0 +1,18 @@
+--- ssdmodel/ssd_init.c	2008-08-16 14:10:34.000000000 +0800
++++ ssdmodel/ssd_init.c	2016-03-23 19:47:14.334689000 +0800
+@@ -1,5 +1,5 @@
+ // DiskSim SSD support
+-// ©2008 Microsoft Corporation. All Rights Reserved
++// \A92008 Microsoft Corporation. All Rights Reserved
+ 
+ #include "ssd.h"
+ #include "ssd_timing.h"
+@@ -445,7 +445,7 @@
+ 
+ void ssd_initialize (void)
+ {
+-    static print1 = 1;
++    //static print1 = 1;
+    int i, j;
+ 
+    if (disksim->ssdinfo == NULL) {
