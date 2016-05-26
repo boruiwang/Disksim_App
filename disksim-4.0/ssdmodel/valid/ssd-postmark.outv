@@ -118,7 +118,7 @@ ssdmodel_ssd SSD {
 Reserve pages percentage = 15,
 Minimum free blocks percentage = 5,
 Write policy = 2,
-Cleaning policy = 2,
+Cleaning policy = 3,
 Planes per package = 8,
 Blocks per plane = 2048,
 Plane block mapping = 3,
